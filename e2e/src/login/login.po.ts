@@ -26,8 +26,8 @@ export class LoginPage {
 
   /** Login with correct credentials */
   validLogin() {
-    this.usernameField.sendKeys('mifos');
-    this.passwordField.sendKeys('password');
+    // this.usernameField.sendKeys('test1');
+    // this.passwordField.sendKeys('password');
     this.loginButton.click();
   }
 
